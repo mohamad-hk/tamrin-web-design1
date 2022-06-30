@@ -1,0 +1,307 @@
+*{
+font-family: Arial, Helvetica, sans-serif;
+text-transform: capitalize;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+#container{
+    width: 1500;
+  margin: 0 auto;
+
+
+}
+h3{
+    padding-bottom: 15;
+}
+body{
+    background: #212121;
+}
+header{
+    margin: 0 auto;
+    color: white;
+    background-color:#323232 ;
+    padding: 100;
+}
+
+#icon{
+    float: left;
+    background-color: rgba(15, 15, 15, 0.644);
+    width: 60;
+    height: 60;
+    margin-bottom: 20;
+    border-radius: 30px ;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+header h1{
+    margin: 10;
+}
+header #header{
+    font-size: 40;
+    background-color: #353131;
+}
+header ul{
+    list-style: none;
+    float: right;
+    margin-bottom: 40;
+}
+
+header li{
+    display: inline-block;
+    padding: 5 15;
+    
+}
+
+header li:hover{
+   background-color: violet;
+   cursor: pointer;
+    
+}
+
+header img{
+    height: 600;
+    width: 100%;
+    padding-bottom: 50;
+    
+}
+.image{
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 250px;
+    right: 0px;
+    background-color: #00000096;
+    color: white;
+    padding: 10 20;
+    width: 500;
+    line-height: 1.5em;
+}
+
+header form{
+    float:right;
+    background-color: #323232;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header input{
+    background-color: #323232;
+    
+}
+header button{
+    background-color: #323232;
+}
+
+main{
+    background-color: white;
+padding: 20 100;
+overflow: auto;
+
+
+}
+
+main h4{
+    margin-left: 5px; 
+}
+main figure{
+    padding-bottom: 30;
+}
+main .number{
+    background-color: #a8a8a8;
+    width: 50;
+    height: 50;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 10;
+    margin-right: 10;
+    float: left;
+}
+
+main #textbody{
+
+    color: #000;
+    border-bottom: 2px solid blue;
+    padding-bottom: 20;
+    margin-bottom: 20;
+}
+main #part1{
+    display: inline-block;
+    width: 400;
+    line-height: 1.7em;
+    padding-top: 10;
+    margin-right: 40;
+    
+    
+    
+}
+main #part2{
+    display: inline-block;
+    width: 400;
+    line-height: 1.7em;
+    padding-top: 10;
+;
+    margin-right: 40;
+}
+
+main #part3{
+    display: inline-block;
+    width: 400;
+    line-height: 1.7em;
+    padding-top: 10;
+
+    
+}
+
+main #middletext{
+    text-align: center;
+    font-size: 30;
+    font-weight: 600;
+}
+main #gallery{
+padding-top: 10;
+}
+main #gallery ul{
+    padding-top: 10;
+    border-top: 2px solid blue;
+    list-style: none;
+    text-align: center;
+}
+
+main #gallery li{
+    border: 7px solid gray;
+    display: inline-block;
+    margin: 0 10;
+}
+
+footer{
+
+    background-color: #333333;
+    margin: 0 auto;
+    padding: 0 80;
+    padding-top: 20;
+    padding-bottom: 100; 
+
+
+}
+footer h3{
+    color: white;
+    font-weight: 400;
+}
+/*recent post*/
+footer .recentpost{
+float: left;
+margin-right: 60;
+
+}
+footer .recentpost ul{
+display: inline-block;
+list-style: none;
+}
+
+footer .recentpost ul li{
+   border: 5px solid #5553504d;
+    margin: 15;
+}
+/*blogroll*/
+footer #blogroll{
+    margin-top: 20;
+    margin-right: 20;
+    float: left;
+}
+footer #blogroll ul{
+    list-style: none;
+
+}
+footer #blogroll li{
+    border-bottom: 2px solid  #515151 ;
+    color:#8a8282 ;
+    margin: 15 0;
+    padding: 5;
+    padding-right: 80;
+}
+footer #blogroll h3{
+    border-bottom:2px solid  #515151 ;
+    padding-bottom: 20;
+}
+
+/*categories*/
+footer #categories{
+    margin-right: 60;
+    margin-left: 20;
+    margin-top: 20;
+    float: left;
+}
+footer #categories ul{
+    list-style: none;
+
+}
+footer #categories li{
+   padding: 5 0;
+    margin: 15 0;
+    color:  #8a8282 ;
+    border-bottom: 2px solid  #515151 ;
+    padding-right: 120;
+}
+footer #categories h3{
+    border-bottom:2px solid  #515151 ;
+    padding-bottom: 20;
+}
+
+
+/*contact*/
+footer #contact{
+    margin-top: 20;
+    width: 300;
+    display: inline-block;
+    color:#857979 ;
+
+}
+
+footer form input{
+    padding: 5;
+    background-color: #515151;
+    margin: 5 0 ;
+    margin-right: 20;
+    margin-top: 10;
+}
+footer form textarea{
+    
+    background-color: #515151;
+    margin: 5 0 ;
+}
+footer form #button{
+    width: 50;
+    background-color: #666060;
+    margin: 5 0 ;
+}
+#sponser{
+    color: #515151;
+    background-color: #222222;
+    display: inline-block;
+    margin: 5 0;
+}
+#sponser #footing{
+    margin-top: 10;
+     margin-left: 90;
+     margin-right: 50;
+    display: inline-block;
+}
+#sponser #heading1{
+    float: left;
+}
+#sponser ul{
+    margin-left: 50;
+    float: right;
+    list-style: none;
+}
+
+
+#sponser li{
+    display: inline-block;
+    margin: 5;
+}
