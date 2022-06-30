@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+#container{
+    margin: 0 auto;
+    width: 1500;
+}
+body{
+    background-color: #202020;
+}
+header {
+background-color: #2d3e50;
+height: 150px;
+}
+header h1{
+margin: 0 100;
+margin-top: 20px;
+color: white;
+text-transform: uppercase;
+font-weight: 600;
+float: left;
+clear: left;
+
+}
+header nav{
+float: right;
+clear: right;
+margin-right: 200px;
+}
+header nav li{
+list-style: none;
+display: inline-block;
+padding: 5px;
+margin: 5px;
+color: #65696d;
+}
+header nav li:hover{
+    background-color: #769fa1;
+    transition: all 2s;
+    transform: rotate(360deg);
+    }
+
+main{
+background-color: white;
+border-bottom: 10px solid #524e4e;
+}
+
+/*section1*/
+main #section1{
+padding: 50px;
+
+}
+
+main #section1 h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #a8a6a6;
+    }
+
+    
+main #section1 p{
+    line-height: 1.5em;
+    color: #cfcfcf;
+}
+main #section1  li a{
+
+    text-decoration: none;
+    background-color: cornsilk;
+    color: white;
+    background-color: #cfcfcf;
+    padding: 10px;
+    line-height: 2.5em;
+   
+    
+}
+main #section1 nav{
+    text-align: center;
+}
+
+main #section1 nav li{
+    display: inline-block;
+    width: 250px;
+    margin: 0 10;
+
+}
+main #section1 nav a:hover{
+    background-color: #1d1d8fbe;
+    transition: all 2s;    
+    cursor: pointer;
+
+}
+.fa {
+    color: #9ba0a4;
+    
+}
+/*section2*/
+main #section2{
+background-color: #2ab3dd;
+padding:  100 150px;
+color: white;
+
+
+}
+
+main #section2 h1{
+    text-align: center;
+    font-weight: 400;
+}
+
+main #section2 p{
+    text-align: center;
+    line-height: 2em;
+    
+}
+
+main #section2 nav{
+    text-align: center;
+    margin-top: 30px;
+}
+
+main #section2 nav li{
+    display: inline-block;
+    
+}
+
+main #section2 nav li img{
+    display: inline-block;
+    border-radius: 5px;
+    width: 120px;
+    height: 100px;
+}
+
+
+/*section3*/
+main #section3{
+padding:  20px 150px;
+margin: 0 100;
+}
+
+main #section3 h1{
+    font-size: large;
+    margin-bottom: 10px;
+    }
+    
+main #section3 p{
+    text-align: justify;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+    font-size: 12;
+    }
+main #section3 nav{
+    
+}
+
+main #section3 nav li{
+    list-style: none;
+    display: inline-block;
+    width: 350px;
+    font-size: 10;
+    margin: 20 10;
+}
+
+
+main #section3  li a{
+
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color:#186b9f;
+    font-size: 10px;
+    color: white;
+    padding: 10px;
+    line-height: 3.5em;
+    
+}
+main #section3  li img{
+width: 100%;
+height: 200px;
+    
+}
